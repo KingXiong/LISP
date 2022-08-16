@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Availity Registration Form</title>
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <link rel='stylesheet' href='JSForm.css' type='text/css' />
+    <script src="JSForm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="avaHeader">
+            <div class="header">
+                <h1>Registration Form</h1>
+                <h5>Please fill out the form below.</h5>
+            </div>
+            <form id="RegisterForm" class="form" action="#">
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" type="text" name="firstName" size="12" />
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input id="lastName" type="text" name="lastName" size="12" />
+                </div>
+                <div>
+                    <label for="npiNumber">NPI Number:</label>
+                    <input id="npiNumber" type="text" name="npiNumber" size="12" />
+                </div>
+                <div>
+                    <label for="address">Address:</label>
+                    <input id="address" type="text" name="address" size="50" />
+                </div>
+                <div>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input id="phoneNumber" type="text" name="pNumber" size="50" />
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" size="50" />
+                </div>
+                <div class="btnSubmit">
+                    <input type="submit" value="Submit" onclick="formValidation(event)">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="thx" class="header" hidden>
+        <h1>Thank you for filling out the form.</h1>
+    </div>
+    <script src="JSForm.js"></script>
+</body>
+</html>
+
