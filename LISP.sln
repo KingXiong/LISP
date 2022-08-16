@@ -27,6 +27,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVReader.UnitTest", "CSVRe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LISPChecker", "LISPChecker", "{21D03881-67B8-4099-9994-5C5F95156C50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{CA1B65E9-719B-4DFF-81CD-5511B621DD1D}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\king_\OneDrive\Documents\SQL Server Management Studio\Availity Assessment.sql = C:\Users\king_\OneDrive\Documents\SQL Server Management Studio\Availity Assessment.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
